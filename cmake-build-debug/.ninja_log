@@ -1,3 +1,6 @@
 # ninja log v5
-11	759	7176147801925723	CMakeFiles/lab_c_programing.dir/1st.c.obj	1f6bec624b7a0481
-762	1679	7176147811025766	lab_c_programing.exe	b257dc5f6a574c9
+3	653	7176181959090225	build.ninja	abf1636dd9c2421c
+1	401	7176178468297989	CMakeFiles/lab_c_programing.dir/1st.c.obj	1f6bec624b7a0481
+404	934	7176178473444343	lab_c_programing.exe	b257dc5f6a574c9
+4	534	7176166747522516	CMakeFiles/lab_c_programing.dir/2nd.c.obj	b2a44bd466dd0f5f
+3	599	7176176528217142	CMakeFiles/lab_c_programing.dir/3rd.c.obj	eadd3358c11b7202

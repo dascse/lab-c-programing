@@ -56,13 +56,6 @@ build CMakeFiles/lab_c_programing.dir/1st.c.obj: C_COMPILER__lab_c_programing_un
   OBJECT_DIR = CMakeFiles\lab_c_programing.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_c_programing.dir
 
-build CMakeFiles/lab_c_programing.dir/2nd.c.obj: C_COMPILER__lab_c_programing_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/2nd.c || cmake_object_order_depends_target_lab_c_programing
-  DEP_FILE = CMakeFiles\lab_c_programing.dir\2nd.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
-  OBJECT_DIR = CMakeFiles\lab_c_programing.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab_c_programing.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab_c_programing
@@ -71,7 +64,7 @@ build CMakeFiles/lab_c_programing.dir/2nd.c.obj: C_COMPILER__lab_c_programing_un
 #############################################
 # Link the executable lab_c_programing.exe
 
-build lab_c_programing.exe: C_EXECUTABLE_LINKER__lab_c_programing_Debug CMakeFiles/lab_c_programing.dir/1st.c.obj CMakeFiles/lab_c_programing.dir/2nd.c.obj
+build lab_c_programing.exe: C_EXECUTABLE_LINKER__lab_c_programing_Debug CMakeFiles/lab_c_programing.dir/1st.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab_c_programing.dir
