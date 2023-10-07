@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab_c_programing.exe"
+			"path" : "11TH.exe"
 		},
 		{
-			"path" : "lab_c_programing.pdb"
+			"path" : "11TH.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -62,7 +62,7 @@
 			]
 		}
 	],
-	"id" : "lab_c_programing::@6890427a1f51a3e7e1df",
+	"id" : "11TH::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -82,8 +82,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "lab_c_programing",
-	"nameOnDisk" : "lab_c_programing.exe",
+	"name" : "11TH",
+	"nameOnDisk" : "11TH.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -104,7 +104,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "19th.c",
+			"path" : "11th.c",
 			"sourceGroupIndex" : 0
 		}
 	],
