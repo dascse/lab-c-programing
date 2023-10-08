@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable( 1ST 1st.c)
+add_executable(2ND 2nd.c)
 add_executable( 3RD 3rd.c)
 add_executable( 4TH 4th.c)
 add_executable( 5TH 5th.c)
@@ -30,7 +31,8 @@ add_executable( 23TH 23th.c)
 add_executable( 24TH 24th.c)
 add_executable( 25TH 25th.c)
 add_executable( 26TH 26th.c)
-
-
-
-
+add_executable( 27TH 27th.c)
+add_executable( 28 28.c)
+add_executable( 29TH 29th.c)
+add_executable(30TH 30th.c)
+add_executable(31TH 31th.c)

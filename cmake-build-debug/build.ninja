@@ -75,6 +75,40 @@ build 1ST.exe: C_EXECUTABLE_LINKER__1ST_Debug CMakeFiles/1ST.dir/1st.c.obj
   TARGET_PDB = 1ST.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 2ND
+
+
+#############################################
+# Order-only phony target for 2ND
+
+build cmake_object_order_depends_target_2ND: phony || CMakeFiles/2ND.dir
+
+build CMakeFiles/2ND.dir/2nd.c.obj: C_COMPILER__2ND_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/2nd.c || cmake_object_order_depends_target_2ND
+  DEP_FILE = CMakeFiles\2ND.dir\2nd.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\2ND.dir
+  OBJECT_FILE_DIR = CMakeFiles\2ND.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2ND
+
+
+#############################################
+# Link the executable 2ND.exe
+
+build 2ND.exe: C_EXECUTABLE_LINKER__2ND_Debug CMakeFiles/2ND.dir/2nd.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2ND.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2ND.exe
+  TARGET_IMPLIB = lib2ND.dll.a
+  TARGET_PDB = 2ND.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 3RD
 
 
@@ -890,6 +924,176 @@ build 26TH.exe: C_EXECUTABLE_LINKER__26TH_Debug CMakeFiles/26TH.dir/26th.c.obj
   TARGET_IMPLIB = lib26TH.dll.a
   TARGET_PDB = 26TH.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 27TH
+
+
+#############################################
+# Order-only phony target for 27TH
+
+build cmake_object_order_depends_target_27TH: phony || CMakeFiles/27TH.dir
+
+build CMakeFiles/27TH.dir/27th.c.obj: C_COMPILER__27TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/27th.c || cmake_object_order_depends_target_27TH
+  DEP_FILE = CMakeFiles\27TH.dir\27th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\27TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\27TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 27TH
+
+
+#############################################
+# Link the executable 27TH.exe
+
+build 27TH.exe: C_EXECUTABLE_LINKER__27TH_Debug CMakeFiles/27TH.dir/27th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\27TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 27TH.exe
+  TARGET_IMPLIB = lib27TH.dll.a
+  TARGET_PDB = 27TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 28
+
+
+#############################################
+# Order-only phony target for 28
+
+build cmake_object_order_depends_target_28: phony || CMakeFiles/28.dir
+
+build CMakeFiles/28.dir/28.c.obj: C_COMPILER__28_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/28.c || cmake_object_order_depends_target_28
+  DEP_FILE = CMakeFiles\28.dir\28.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\28.dir
+  OBJECT_FILE_DIR = CMakeFiles\28.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 28
+
+
+#############################################
+# Link the executable 28.exe
+
+build 28.exe: C_EXECUTABLE_LINKER__28_Debug CMakeFiles/28.dir/28.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\28.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 28.exe
+  TARGET_IMPLIB = lib28.dll.a
+  TARGET_PDB = 28.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 29TH
+
+
+#############################################
+# Order-only phony target for 29TH
+
+build cmake_object_order_depends_target_29TH: phony || CMakeFiles/29TH.dir
+
+build CMakeFiles/29TH.dir/29th.c.obj: C_COMPILER__29TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/29th.c || cmake_object_order_depends_target_29TH
+  DEP_FILE = CMakeFiles\29TH.dir\29th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\29TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\29TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 29TH
+
+
+#############################################
+# Link the executable 29TH.exe
+
+build 29TH.exe: C_EXECUTABLE_LINKER__29TH_Debug CMakeFiles/29TH.dir/29th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\29TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 29TH.exe
+  TARGET_IMPLIB = lib29TH.dll.a
+  TARGET_PDB = 29TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 30TH
+
+
+#############################################
+# Order-only phony target for 30TH
+
+build cmake_object_order_depends_target_30TH: phony || CMakeFiles/30TH.dir
+
+build CMakeFiles/30TH.dir/30th.c.obj: C_COMPILER__30TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/30th.c || cmake_object_order_depends_target_30TH
+  DEP_FILE = CMakeFiles\30TH.dir\30th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\30TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\30TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 30TH
+
+
+#############################################
+# Link the executable 30TH.exe
+
+build 30TH.exe: C_EXECUTABLE_LINKER__30TH_Debug CMakeFiles/30TH.dir/30th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\30TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 30TH.exe
+  TARGET_IMPLIB = lib30TH.dll.a
+  TARGET_PDB = 30TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 31TH
+
+
+#############################################
+# Order-only phony target for 31TH
+
+build cmake_object_order_depends_target_31TH: phony || CMakeFiles/31TH.dir
+
+build CMakeFiles/31TH.dir/31th.c.obj: C_COMPILER__31TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/31th.c || cmake_object_order_depends_target_31TH
+  DEP_FILE = CMakeFiles\31TH.dir\31th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\31TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\31TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 31TH
+
+
+#############################################
+# Link the executable 31TH.exe
+
+build 31TH.exe: C_EXECUTABLE_LINKER__31TH_Debug CMakeFiles/31TH.dir/31th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\31TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 31TH.exe
+  TARGET_IMPLIB = lib31TH.dll.a
+  TARGET_PDB = 31TH.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -952,6 +1156,18 @@ build 25TH: phony 25TH.exe
 
 build 26TH: phony 26TH.exe
 
+build 27TH: phony 27TH.exe
+
+build 28: phony 28.exe
+
+build 29TH: phony 29TH.exe
+
+build 2ND: phony 2ND.exe
+
+build 30TH: phony 30TH.exe
+
+build 31TH: phony 31TH.exe
+
 build 3RD: phony 3RD.exe
 
 build 4TH: phony 4TH.exe
@@ -974,7 +1190,7 @@ build 9TH: phony 9TH.exe
 #############################################
 # Folder: C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug
 
-build all: phony 1ST.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe
+build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28.exe 29TH.exe 30TH.exe 31TH.exe
 
 # =============================================================================
 # Built-in targets

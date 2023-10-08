@@ -1,4 +1,5 @@
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/1ST.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/2ND.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/3RD.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/4TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/5TH.dir
@@ -23,5 +24,10 @@ C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/23
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/24TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/25TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/26TH.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/27TH.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/28.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/29TH.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/30TH.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/31TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
