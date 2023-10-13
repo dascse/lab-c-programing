@@ -15,7 +15,7 @@ int main() {
     scanf("%f", &x);
     printf("Enter the value of c:");
     scanf("%f", &c);
-    mxc = m + x + c;
+    mxc = m*x + c;
     dd = (a== mxc) ? (a == mxc):(a == mxc);
     printf("%d", dd);
 }
