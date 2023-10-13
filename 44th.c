@@ -1,21 +1,9 @@
-//
-// Created by Admin on 10/12/2023.
-//
-//Write a program in c to print the multiplication table of n.
+//Write a program in c to change the value of a variable by taking an input from the user.
 #include<stdio.h>
 int main()
 {
-    int n,c;
-    printf("Enter the range:");
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++)
-    {
-        for(int j=1;j<=10;j++)
-        {
-
-           printf("%d * %d=%d\n",i,j,i*j);
-
-        }
-        printf("\n");
-    }
+    int a=10;
+    printf("%d\n",a++);
+    scanf("%d\n",&a);
+    printf("%d\n",a);
 }
