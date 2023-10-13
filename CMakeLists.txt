@@ -52,5 +52,5 @@ add_executable(44TH 44th.c)
 add_executable(45TH 45th.c)
 add_executable(46TH 46th.c)
 add_executable(47TH 47th.c)
-add_executable(4T8H 48th.c)
-
+add_executable(48TH 48th.c)
+add_executable(49TH 49th.c)

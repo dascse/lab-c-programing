@@ -1605,38 +1605,72 @@ build 47TH.exe: C_EXECUTABLE_LINKER__47TH_Debug CMakeFiles/47TH.dir/47th.c.obj
   TARGET_PDB = 47TH.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 4T8H
+# Object build statements for EXECUTABLE target 48TH
 
 
 #############################################
-# Order-only phony target for 4T8H
+# Order-only phony target for 48TH
 
-build cmake_object_order_depends_target_4T8H: phony || CMakeFiles/4T8H.dir
+build cmake_object_order_depends_target_48TH: phony || CMakeFiles/48TH.dir
 
-build CMakeFiles/4T8H.dir/48th.c.obj: C_COMPILER__4T8H_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/48th.c || cmake_object_order_depends_target_4T8H
-  DEP_FILE = CMakeFiles\4T8H.dir\48th.c.obj.d
+build CMakeFiles/48TH.dir/48th.c.obj: C_COMPILER__48TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/48th.c || cmake_object_order_depends_target_48TH
+  DEP_FILE = CMakeFiles\48TH.dir\48th.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
-  OBJECT_DIR = CMakeFiles\4T8H.dir
-  OBJECT_FILE_DIR = CMakeFiles\4T8H.dir
+  OBJECT_DIR = CMakeFiles\48TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\48TH.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 4T8H
+# Link build statements for EXECUTABLE target 48TH
 
 
 #############################################
-# Link the executable 4T8H.exe
+# Link the executable 48TH.exe
 
-build 4T8H.exe: C_EXECUTABLE_LINKER__4T8H_Debug CMakeFiles/4T8H.dir/48th.c.obj
+build 48TH.exe: C_EXECUTABLE_LINKER__48TH_Debug CMakeFiles/48TH.dir/48th.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\4T8H.dir
+  OBJECT_DIR = CMakeFiles\48TH.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 4T8H.exe
-  TARGET_IMPLIB = lib4T8H.dll.a
-  TARGET_PDB = 4T8H.exe.dbg
+  TARGET_FILE = 48TH.exe
+  TARGET_IMPLIB = lib48TH.dll.a
+  TARGET_PDB = 48TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 49TH
+
+
+#############################################
+# Order-only phony target for 49TH
+
+build cmake_object_order_depends_target_49TH: phony || CMakeFiles/49TH.dir
+
+build CMakeFiles/49TH.dir/49th.c.obj: C_COMPILER__49TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/49th.c || cmake_object_order_depends_target_49TH
+  DEP_FILE = CMakeFiles\49TH.dir\49th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\49TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\49TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 49TH
+
+
+#############################################
+# Link the executable 49TH.exe
+
+build 49TH.exe: C_EXECUTABLE_LINKER__49TH_Debug CMakeFiles/49TH.dir/49th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\49TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 49TH.exe
+  TARGET_IMPLIB = lib49TH.dll.a
+  TARGET_PDB = 49TH.exe.dbg
 
 
 #############################################
@@ -1744,7 +1778,9 @@ build 46TH: phony 46TH.exe
 
 build 47TH: phony 47TH.exe
 
-build 4T8H: phony 4T8H.exe
+build 48TH: phony 48TH.exe
+
+build 49TH: phony 49TH.exe
 
 build 4TH: phony 4TH.exe
 
@@ -1766,7 +1802,7 @@ build 9TH: phony 9TH.exe
 #############################################
 # Folder: C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug
 
-build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 4T8H.exe
+build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 48TH.exe 49TH.exe
 
 # =============================================================================
 # Built-in targets
