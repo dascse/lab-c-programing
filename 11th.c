@@ -5,7 +5,8 @@
 #include<math.h>
 int main(){
     int x1,x2,y1,y2,a,b;
-    float dist;
+    float dist,d;
+
     printf("enter x1=");
     scanf("%d",&x1);
     printf("enter y1=");
@@ -16,6 +17,7 @@ int main(){
     scanf("%d",&y2);
     a=x2-x1;
     b=y2-y1;
-    dist=sqrt(pow(a,2))+(pow(b,2));
-    printf("distance between two parts is=%f",dist);
+    dist=(pow(a,2))+(pow(b,2));
+    d=sqrt(dist);
+    printf("distance between two parts is=%.2f",d);
 }
