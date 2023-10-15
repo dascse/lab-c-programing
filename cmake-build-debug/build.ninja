@@ -1910,6 +1910,40 @@ build 56.exe: C_EXECUTABLE_LINKER__56_Debug CMakeFiles/56.dir/56.c.obj
   TARGET_IMPLIB = lib56.dll.a
   TARGET_PDB = 56.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 57TH
+
+
+#############################################
+# Order-only phony target for 57TH
+
+build cmake_object_order_depends_target_57TH: phony || CMakeFiles/57TH.dir
+
+build CMakeFiles/57TH.dir/57th.c.obj: C_COMPILER__57TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/57th.c || cmake_object_order_depends_target_57TH
+  DEP_FILE = CMakeFiles\57TH.dir\57th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\57TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\57TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 57TH
+
+
+#############################################
+# Link the executable 57TH.exe
+
+build 57TH.exe: C_EXECUTABLE_LINKER__57TH_Debug CMakeFiles/57TH.dir/57th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\57TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 57TH.exe
+  TARGET_IMPLIB = lib57TH.dll.a
+  TARGET_PDB = 57TH.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2036,6 +2070,8 @@ build 55TH: phony 55TH.exe
 
 build 56: phony 56.exe
 
+build 57TH: phony 57TH.exe
+
 build 5TH: phony 5TH.exe
 
 build 6TH: phony 6TH.exe
@@ -2054,7 +2090,7 @@ build 9TH: phony 9TH.exe
 #############################################
 # Folder: C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug
 
-build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 48TH.exe 49TH.exe 50TH.exe 51TH.exe 52TH.exe 53.exe 54TH.exe 55TH.exe 56.exe
+build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 48TH.exe 49TH.exe 50TH.exe 51TH.exe 52TH.exe 53.exe 54TH.exe 55TH.exe 56.exe 57TH.exe
 
 # =============================================================================
 # Built-in targets

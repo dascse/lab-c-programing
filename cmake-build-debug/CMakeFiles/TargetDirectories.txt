@@ -53,5 +53,6 @@ C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/53
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/54TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/55TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/56.dir
+C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/57TH.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
