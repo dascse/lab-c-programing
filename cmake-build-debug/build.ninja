@@ -1672,6 +1672,244 @@ build 49TH.exe: C_EXECUTABLE_LINKER__49TH_Debug CMakeFiles/49TH.dir/49th.c.obj
   TARGET_IMPLIB = lib49TH.dll.a
   TARGET_PDB = 49TH.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 50TH
+
+
+#############################################
+# Order-only phony target for 50TH
+
+build cmake_object_order_depends_target_50TH: phony || CMakeFiles/50TH.dir
+
+build CMakeFiles/50TH.dir/50th.c.obj: C_COMPILER__50TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/50th.c || cmake_object_order_depends_target_50TH
+  DEP_FILE = CMakeFiles\50TH.dir\50th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\50TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\50TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 50TH
+
+
+#############################################
+# Link the executable 50TH.exe
+
+build 50TH.exe: C_EXECUTABLE_LINKER__50TH_Debug CMakeFiles/50TH.dir/50th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\50TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 50TH.exe
+  TARGET_IMPLIB = lib50TH.dll.a
+  TARGET_PDB = 50TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 51TH
+
+
+#############################################
+# Order-only phony target for 51TH
+
+build cmake_object_order_depends_target_51TH: phony || CMakeFiles/51TH.dir
+
+build CMakeFiles/51TH.dir/51th.c.obj: C_COMPILER__51TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/51th.c || cmake_object_order_depends_target_51TH
+  DEP_FILE = CMakeFiles\51TH.dir\51th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\51TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\51TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 51TH
+
+
+#############################################
+# Link the executable 51TH.exe
+
+build 51TH.exe: C_EXECUTABLE_LINKER__51TH_Debug CMakeFiles/51TH.dir/51th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\51TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 51TH.exe
+  TARGET_IMPLIB = lib51TH.dll.a
+  TARGET_PDB = 51TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 52TH
+
+
+#############################################
+# Order-only phony target for 52TH
+
+build cmake_object_order_depends_target_52TH: phony || CMakeFiles/52TH.dir
+
+build CMakeFiles/52TH.dir/52th.c.obj: C_COMPILER__52TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/52th.c || cmake_object_order_depends_target_52TH
+  DEP_FILE = CMakeFiles\52TH.dir\52th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\52TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\52TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 52TH
+
+
+#############################################
+# Link the executable 52TH.exe
+
+build 52TH.exe: C_EXECUTABLE_LINKER__52TH_Debug CMakeFiles/52TH.dir/52th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\52TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 52TH.exe
+  TARGET_IMPLIB = lib52TH.dll.a
+  TARGET_PDB = 52TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 53
+
+
+#############################################
+# Order-only phony target for 53
+
+build cmake_object_order_depends_target_53: phony || CMakeFiles/53.dir
+
+build CMakeFiles/53.dir/53.c.obj: C_COMPILER__53_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/53.c || cmake_object_order_depends_target_53
+  DEP_FILE = CMakeFiles\53.dir\53.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\53.dir
+  OBJECT_FILE_DIR = CMakeFiles\53.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 53
+
+
+#############################################
+# Link the executable 53.exe
+
+build 53.exe: C_EXECUTABLE_LINKER__53_Debug CMakeFiles/53.dir/53.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\53.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 53.exe
+  TARGET_IMPLIB = lib53.dll.a
+  TARGET_PDB = 53.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 54TH
+
+
+#############################################
+# Order-only phony target for 54TH
+
+build cmake_object_order_depends_target_54TH: phony || CMakeFiles/54TH.dir
+
+build CMakeFiles/54TH.dir/54th.c.obj: C_COMPILER__54TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/54th.c || cmake_object_order_depends_target_54TH
+  DEP_FILE = CMakeFiles\54TH.dir\54th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\54TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\54TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 54TH
+
+
+#############################################
+# Link the executable 54TH.exe
+
+build 54TH.exe: C_EXECUTABLE_LINKER__54TH_Debug CMakeFiles/54TH.dir/54th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\54TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 54TH.exe
+  TARGET_IMPLIB = lib54TH.dll.a
+  TARGET_PDB = 54TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 55TH
+
+
+#############################################
+# Order-only phony target for 55TH
+
+build cmake_object_order_depends_target_55TH: phony || CMakeFiles/55TH.dir
+
+build CMakeFiles/55TH.dir/55th.c.obj: C_COMPILER__55TH_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/55th.c || cmake_object_order_depends_target_55TH
+  DEP_FILE = CMakeFiles\55TH.dir\55th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\55TH.dir
+  OBJECT_FILE_DIR = CMakeFiles\55TH.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 55TH
+
+
+#############################################
+# Link the executable 55TH.exe
+
+build 55TH.exe: C_EXECUTABLE_LINKER__55TH_Debug CMakeFiles/55TH.dir/55th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\55TH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 55TH.exe
+  TARGET_IMPLIB = lib55TH.dll.a
+  TARGET_PDB = 55TH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 56
+
+
+#############################################
+# Order-only phony target for 56
+
+build cmake_object_order_depends_target_56: phony || CMakeFiles/56.dir
+
+build CMakeFiles/56.dir/56.c.obj: C_COMPILER__56_unscanned_Debug C$:/Users/Admin/Documents/GitHub/lab-c-programing/56.c || cmake_object_order_depends_target_56
+  DEP_FILE = CMakeFiles\56.dir\56.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/lab-c-programing/.
+  OBJECT_DIR = CMakeFiles\56.dir
+  OBJECT_FILE_DIR = CMakeFiles\56.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 56
+
+
+#############################################
+# Link the executable 56.exe
+
+build 56.exe: C_EXECUTABLE_LINKER__56_Debug CMakeFiles/56.dir/56.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\56.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 56.exe
+  TARGET_IMPLIB = lib56.dll.a
+  TARGET_PDB = 56.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1784,6 +2022,20 @@ build 49TH: phony 49TH.exe
 
 build 4TH: phony 4TH.exe
 
+build 50TH: phony 50TH.exe
+
+build 51TH: phony 51TH.exe
+
+build 52TH: phony 52TH.exe
+
+build 53: phony 53.exe
+
+build 54TH: phony 54TH.exe
+
+build 55TH: phony 55TH.exe
+
+build 56: phony 56.exe
+
 build 5TH: phony 5TH.exe
 
 build 6TH: phony 6TH.exe
@@ -1802,7 +2054,7 @@ build 9TH: phony 9TH.exe
 #############################################
 # Folder: C:/Users/Admin/Documents/GitHub/lab-c-programing/cmake-build-debug
 
-build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 48TH.exe 49TH.exe
+build all: phony 1ST.exe 2ND.exe 3RD.exe 4TH.exe 5TH.exe 6TH.exe 7TH.exe 8TH.exe 9TH.exe 11TH.exe 10TH.exe 12TH.exe 13TH.exe 14TH.exe 15TH.exe 16TH.exe 17TH.exe 18TH.exe 19TH.exe 20TH.exe 21TH.exe 22TH.exe 23TH.exe 24TH.exe 25TH.exe 26TH.exe 27TH.exe 28TH.exe 29TH.exe 30TH.exe 32TH.exe 33TH.exe 34TH.exe 35TH.exe 36TH.exe 37TH.exe 38TH.exe 39TH.exe 40TH.exe 41TH.exe 42TH.exe 43TH.exe 44TH.exe 45TH.exe 46TH.exe 47TH.exe 48TH.exe 49TH.exe 50TH.exe 51TH.exe 52TH.exe 53.exe 54TH.exe 55TH.exe 56.exe
 
 # =============================================================================
 # Built-in targets
